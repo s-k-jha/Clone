@@ -1,0 +1,146 @@
+.hero-section {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  margin-left: 120px;
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  color: #000033;
+  font-weight: 700;
+}
+
+.hero-content h1 span {
+  display: block;
+  color: #000033;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.register-btn {
+  background-color: white;
+  border: 2px solid #000033;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.how-it-works-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000033;
+}
+
+.graphic-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+/* 
+.text-container {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a1a;
+} */
+/* 
+.spheres {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.sphere {
+  width: 40px;
+  height: 40px;
+  background-color: #ff6f00;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.sphere-1 {
+  width: 60px;
+  background-color: #a203ec;
+}
+
+.sphere-2 {
+  width: 120px;
+  background-color: #0f8b8d;
+}
+
+.sphere-3 {
+  width: 60px;
+  background-color: #16d700;
+} */
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+    
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .graphic-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .register-btn {
+    /* margin-right: 57px; */
+    margin-bottom: 10px;
+  }
+  .image-container {
+    height: 200px;
+  }
+  /* .spheres {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sphere {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sphere-1 {
+    width: 70px;
+  }
+
+  .sphere-2 {
+    width: 100px;
+  }
+
+  .sphere-3 {
+    width: 70px;
+  } */
+}

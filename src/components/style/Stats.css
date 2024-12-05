@@ -1,0 +1,17 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    visibility: hidden;
+    flex-direction: column;
+    padding: 15px;
+  }
+}
